@@ -1,0 +1,10 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: orange;
+$bg-image-url: "../images/bg.jpg";
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-image: url($bg-image-url);
+  background-size: cover;
+}
