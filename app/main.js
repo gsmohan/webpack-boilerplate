@@ -1,4 +1,6 @@
 require('./styles/main.scss');
+let content = require('./components/content.js');
 
-document.write('<h3>Webpack Boilerplate </h3>');
-document.write(require('./components/content.js'));
+let containerEl = document.querySelector('#container');
+	containerEl.innerHTML = content;
+
